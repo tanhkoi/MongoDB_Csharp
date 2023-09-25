@@ -102,7 +102,7 @@
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(184, 438);
+            this.btnSua.Location = new System.Drawing.Point(195, 438);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(98, 41);
             this.btnSua.TabIndex = 5;
@@ -139,14 +139,14 @@
             this.dgvSinhVienList.Name = "dgvSinhVienList";
             this.dgvSinhVienList.RowHeadersWidth = 62;
             this.dgvSinhVienList.RowTemplate.Height = 28;
-            this.dgvSinhVienList.Size = new System.Drawing.Size(565, 317);
+            this.dgvSinhVienList.Size = new System.Drawing.Size(786, 317);
             this.dgvSinhVienList.TabIndex = 4;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1082, 563);
+            this.ClientSize = new System.Drawing.Size(1281, 563);
             this.Controls.Add(this.dgvSinhVienList);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.button1);

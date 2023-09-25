@@ -23,6 +23,7 @@ namespace Demo
             loadData();
         }
 
+        // Read
         public void loadData()
         {
             var filter = Builders<SinhVien>.Filter.Empty;
@@ -31,7 +32,7 @@ namespace Demo
             dgvSinhVienList.DataSource = sinhVienList;
         }
 
-
+        // Create
         private void btnThem_Click(object sender, EventArgs e)
         {
             var sinhVien = new SinhVien
@@ -45,6 +46,7 @@ namespace Demo
             loadData();
         }
 
+        // Update
         private void btnSua_Click(object sender, EventArgs e)
         {
             var filter = Builders<SinhVien>.Filter.Eq(a => a.MSSV, Int32.Parse(txtMSSV.Text));
@@ -54,6 +56,7 @@ namespace Demo
             loadData();
         }
 
+        // Delete
         private void btnXoa_Click(object sender, EventArgs e)
         {
             var filter = Builders<SinhVien>.Filter.Eq(a => a.MSSV, Int32.Parse(txtMSSV.Text));
@@ -61,6 +64,5 @@ namespace Demo
 
             loadData();
         }
-
     }
 }
